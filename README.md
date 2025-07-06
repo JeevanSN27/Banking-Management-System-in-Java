@@ -44,8 +44,3 @@ A web-based banking management system built using **Java, JSP, Servlets**, and *
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the Repo
-```bash
-git clone https://github.com/your-username/banking-management-system.git
