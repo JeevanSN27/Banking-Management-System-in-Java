@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* Reset and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Background and layout */
+body, html {
+  height: 100%;
+  background: url('bank-interior-bg.png') no-repeat center center/cover;
+}
+
+/* Login Box */
+.login-container {
+  background: rgba(255, 255, 255, 0.8) ;
+  width: 500px;
+  margin: 10% auto;
+  padding: 30px;
+  /* border-radius: 10px; */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  margin-bottom: 20px;
+}
+.logo img {
+  width: 150px;
+}
+
+
+/* Form Inputs */
+form input {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+/* Button */
+form button {
+  width: 20%;
+  padding: 12px;
+  background-color: #1e0073;
+  color: white ;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  position: relative;
+  left: -30%;
+  top: 15px;
+  cursor: pointer;
+}
+form a{
+  text-decoration: none;
+  color: white;
+}
+form button:hover {
+  background-color: #28008f;
+}
+
+/* Links */
+.links {
+  position: relative;
+  left: 31%;
+  top: -15px;
+
+}
+.links a {
+  font-size: 14px;
+  color: #1e0073;
+  text-decoration: none;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Links */
+
+
+.footer-links {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 100;
+}
+
+.footer-links a {
+  background-color: #1e0073;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.footer-links a:hover {
+  background-color: #28008f;
+}
+
+/* to avoid scrolling nature of page */
+html, body {
+  overflow: hidden;
+}
